@@ -1,38 +1,80 @@
 import React, { Component } from "react";
-import { Tabs } from "antd";
-import './Header.scss'
+import { Tabs,Button} from "antd";
+import "./Header.scss";
+import Lister from "./Lister";
 class Header extends Component {
   constructor(props) {
     super(props);
+    this.state = {
+      heading: "",
+    };
 
     this.onCallback = this.onCallback.bind(this);
   }
 
   onCallback = (key) => {
-    console.log(key)
-  }
+    /* if (key === 1) {
+      this.setState({
+        heading: "Tablet Sales",
+      });
+      console.log(this.state.heading)
+    }
+    if (key === 2) {
+      this.setState({
+        heading: "Alerts",
+      });
+      console.log(this.state.heading)
+    }
+    if (key === 3) {
+      this.setState({
+        heading: "Messages",
+      });
+      console.log(this.state.heading)
+    }
+    if (key === 4) {
+      this.setState({
+        heading: "Products",
+      });
+      console.log(this.state.heading)
+    } */
+  };
 
   render() {
     const { TabPane } = Tabs;
     return (
-      <div>
-      <div className='headertab'>
-        <Tabs defaultActiveKey="1" onChange={this.onCallback}>
-          <TabPane  tab="SALES" key="1">
-            <p>sales graph</p>
-          </TabPane>
-          <TabPane  tab="ALERT" key="2">
-            <p>Alert content</p>
-          </TabPane>
-          <TabPane  tab="MESSAGES" key="3">
-            <p>messages content</p>
-          </TabPane>
-          <TabPane  tab="PRODUCTS" key="4">
-            <p>products content</p>
-          </TabPane>
-        </Tabs>
+      <>
+      <div style={{display:'flex', justifyContent:'space-around'}} className='backColor'>
+        <div className="icon">{/* <Button type="primary"  style={{ marginBottom: 16 }}>
+          
+        </Button> */}icon</div>
+        <div>
+        <div className="summer">SUMMER 2015</div>
+        <div className="tabsales">Tablet Sales</div>
         </div>
-      </div>
+        </div>
+        
+
+        <div className="headertab">
+          <Tabs defaultActiveKey="1" onChange={this.onCallback}>
+            <TabPane tab="SALES" key="1">
+            <div>
+            <p>sales graph</p>
+            </div>
+              
+            </TabPane>
+            <TabPane tab="ALERT" key="2">
+              <p>Alert content</p>
+            </TabPane>
+            <TabPane tab="MESSAGES" key="3">
+              <p>messages content</p>
+            </TabPane>
+            <TabPane tab="PRODUCTS" key="4">
+              <p>products content</p>
+            </TabPane>
+          </Tabs>
+          <Lister/>
+        </div>
+      </>
     );
   }
 }
