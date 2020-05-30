@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="151" viewBox="0 0 1400 151">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0.702;
+      }
+
+      .cls-2 {
+        fill: #586168;
+      }
+
+      .cls-3 {
+        fill: #748089;
+      }
+    </style>
+  </defs>
+  <g id="horizontal" class="cls-1" transform="translate(0 -187)">
+    <rect id="Rectangle_2" data-name="Rectangle 2" class="cls-2" width="1400" height="1" transform="translate(0 187)"/>
+    <rect id="Rectangle_2_copy" data-name="Rectangle 2 copy" class="cls-2" width="1400" height="1" transform="translate(0 237)"/>
+    <rect id="v" class="cls-2" width="1400" height="1" transform="translate(0 287)"/>
+    <rect id="v_copy" data-name="v copy" class="cls-3" width="1400" height="1" transform="translate(0 337)"/>
+  </g>
+</svg>

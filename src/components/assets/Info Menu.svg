@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: rgba(255,255,255,0);
+        stroke: #a7b4c4;
+        stroke-linejoin: round;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+
+      .cls-4 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Info_Menu" data-name="Info Menu" transform="translate(-25 -31)">
+    <g id="Rounded_Rectangle_1" data-name="Rounded Rectangle 1" class="cls-1" transform="translate(26 32)">
+      <rect class="cls-3" width="46" height="46" rx="1"/>
+      <rect class="cls-4" x="-0.5" y="-0.5" width="47" height="47" rx="1.5"/>
+    </g>
+    <g id="info_icon" data-name="info icon">
+      <rect id="Rectangle_4" data-name="Rectangle 4" class="cls-2" width="15" height="2" transform="translate(39 47)"/>
+      <rect id="Rectangle_4_copy" data-name="Rectangle 4 copy" class="cls-2" width="19" height="2" transform="translate(39 52)"/>
+      <rect id="Rectangle_4_copy_2" data-name="Rectangle 4 copy 2" class="cls-2" width="17" height="2" transform="translate(39 57)"/>
+      <rect id="Rectangle_4_copy_3" data-name="Rectangle 4 copy 3" class="cls-2" width="20" height="2" transform="translate(39 62)"/>
+    </g>
+  </g>
+</svg>

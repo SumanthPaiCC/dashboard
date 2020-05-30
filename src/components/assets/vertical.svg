@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1219" height="180" viewBox="0 0 1219 180">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0.702;
+      }
+
+      .cls-2 {
+        fill: #748089;
+      }
+    </style>
+  </defs>
+  <g id="vertical" class="cls-1" transform="translate(-90 -188)">
+    <g id="smaller">
+      <rect id="Rectangle_3_copy" data-name="Rectangle 3 copy" class="cls-2" width="1" height="165" transform="translate(212 188)"/>
+      <rect id="Rectangle_3_copy_2" data-name="Rectangle 3 copy 2" class="cls-2" width="1" height="165" transform="translate(334 188)"/>
+      <rect id="Rectangle_3_copy_4" data-name="Rectangle 3 copy 4" class="cls-2" width="1" height="165" transform="translate(578 188)"/>
+      <rect id="Rectangle_3_copy_5" data-name="Rectangle 3 copy 5" class="cls-2" width="1" height="165" transform="translate(700 188)"/>
+      <rect id="Rectangle_3_copy_7" data-name="Rectangle 3 copy 7" class="cls-2" width="1" height="165" transform="translate(944 188)"/>
+      <rect id="Rectangle_3_copy_8" data-name="Rectangle 3 copy 8" class="cls-2" width="1" height="165" transform="translate(1064 188)"/>
+      <rect id="Rectangle_3_copy_10" data-name="Rectangle 3 copy 10" class="cls-2" width="1" height="165" transform="translate(1308 188)"/>
+    </g>
+    <g id="big_lines" data-name="big lines">
+      <rect id="Rectangle_3" data-name="Rectangle 3" class="cls-2" width="1" height="180" transform="translate(90 188)"/>
+      <rect id="Rectangle_3_copy_3" data-name="Rectangle 3 copy 3" class="cls-2" width="1" height="180" transform="translate(456 188)"/>
+      <rect id="Rectangle_3_copy_6" data-name="Rectangle 3 copy 6" class="cls-2" width="1" height="180" transform="translate(822 188)"/>
+      <rect id="Rectangle_3_copy_9" data-name="Rectangle 3 copy 9" class="cls-2" width="1" height="180" transform="translate(1186 188)"/>
+    </g>
+  </g>
+</svg>

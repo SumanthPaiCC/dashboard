@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="10.999" height="6.003" viewBox="0 0 10.999 6.003">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #8294a0;
+      }
+    </style>
+  </defs>
+  <path id="Down_Arrow" data-name="Down Arrow" class="cls-1" d="M182.133,158.734l5.016,5.142a.558.558,0,0,0,.7,0l5.016-5.142a.413.413,0,0,0,0-.611.481.481,0,0,0-.651,0l-4.714,4.832-4.714-4.832a.481.481,0,0,0-.65,0A.413.413,0,0,0,182.133,158.734Z" transform="translate(-181.998 -157.996)"/>
+</svg>

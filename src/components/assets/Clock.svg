@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #adb6bc;
+      }
+    </style>
+  </defs>
+  <g id="Clock" transform="translate(-387 -519)">
+    <path id="Path_3" data-name="Path 3" class="cls-1" d="M0,0H24V24H0Z" transform="translate(387 519)"/>
+    <path id="Path_4" data-name="Path 4" class="cls-2" d="M12,22A10,10,0,1,1,22,12,10,10,0,0,1,12,22Zm0-2a8,8,0,1,0-8-8A8,8,0,0,0,12,20Zm1-8h4v2H11V7h2Z" transform="translate(387 519)"/>
+  </g>
+</svg>

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Tabs, Button } from "antd";
 import "./Lister.scss";
+import Listitem from "./Listitem";
 class Lister extends Component {
   constructor(props) {
     super(props);
@@ -27,7 +28,9 @@ class Lister extends Component {
               {/* sort by all popular most sold ipad android windows */}
             </TabPane>
             <TabPane tab="ALL" key="2">
-              <p>Alert content</p>
+              <div>
+                  <Listitem/>
+              </div>
             </TabPane>
             <TabPane tab="POPULAR" key="3">
               <p>messages content</p>

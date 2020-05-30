@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1239" height="134" viewBox="0 0 1239 134">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #9cbcd6;
+        opacity: 0.4;
+      }
+
+      .cls-2 {
+        fill: #1c2e33;
+      }
+
+      .cls-10, .cls-11, .cls-2, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9 {
+        stroke: #5d707f;
+        stroke-linejoin: round;
+      }
+
+      .cls-3 {
+        fill: #738b9e;
+      }
+
+      .cls-4 {
+        fill: #152327;
+      }
+
+      .cls-5 {
+        fill: #17262b;
+      }
+
+      .cls-6 {
+        fill: #1b2c31;
+      }
+
+      .cls-7 {
+        fill: #18272c;
+      }
+
+      .cls-8 {
+        fill: #162327;
+      }
+
+      .cls-9 {
+        fill: #19292e;
+      }
+
+      .cls-10 {
+        fill: #141e23;
+      }
+
+      .cls-11 {
+        fill: #1e3338;
+      }
+
+      .cls-12 {
+        fill: #ebf7ff;
+        mix-blend-mode: multiply;
+        isolation: isolate;
+      }
+
+      .cls-13 {
+        stroke: none;
+      }
+
+      .cls-14 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="::TRend_Line" data-name="::TRend Line" transform="translate(-82 -211)">
+    <path id="line" class="cls-1" d="M87.519,338.164,221.48,233.5l.531.68,162.915,52L548.55,217l.45,4.108.45-4.108,111.563,41.845-.024.053,136.9,46.9L899.438,259.11l.012-.109.176.023.387-.178-.025.225,196.853,25.752,147.172-66.977.544,3.157-148.562,68.156.3-2.759-.739,1.6L899.173,263.182,797.995,310.159l-.436-3.327-1,2.171L654.995,261.159l.088-.809L549,221.161,385.732,289.624l-.175.38-.417-.131-2.7,1.131-1.068-2.318-159.652-50.3L89.981,341.316ZM1245.005,221.146l.546-3.144,67,35.861-.544,3.139Z"/>
+    <g id="Dots">
+      <g id="Dots-2" data-name="Dots">
+        <g id="dot">
+          <g id="Ellipse_1" data-name="Ellipse 1" class="cls-2" transform="translate(214 230)">
+            <circle class="cls-13" cx="7" cy="7" r="7"/>
+            <circle class="cls-14" cx="7" cy="7" r="7.5"/>
+          </g>
+          <circle id="Ellipse_1_copy" data-name="Ellipse 1 copy" class="cls-3" cx="5" cy="5" r="5" transform="translate(216 232)"/>
+        </g>
+        <g id="dot_copy_7" data-name="dot copy 7">
+          <g id="Ellipse_1-2" data-name="Ellipse 1" class="cls-4" transform="translate(83 330)">
+            <circle class="cls-13" cx="7" cy="7" r="7"/>
+            <circle class="cls-14" cx="7" cy="7" r="7.5"/>
+          </g>
+          <circle id="Ellipse_1_copy-2" data-name="Ellipse 1 copy" class="cls-3" cx="5" cy="5" r="5" transform="translate(85 332)"/>
+        </g>
+        <g id="dot_copy" data-name="dot copy">
+          <g id="Ellipse_1-3" data-name="Ellipse 1" class="cls-5" transform="translate(379 281)">
+            <circle class="cls-13" cx="7" cy="7" r="7"/>
+            <circle class="cls-14" cx="7" cy="7" r="7.5"/>
+          </g>
+          <circle id="Ellipse_1_copy-3" data-name="Ellipse 1 copy" class="cls-3" cx="5" cy="5" r="5" transform="translate(381 283)"/>
+        </g>
+        <g id="dot_copy_2" data-name="dot copy 2">
+          <g id="Ellipse_1-4" data-name="Ellipse 1" class="cls-6" transform="translate(542 212)">
+            <circle class="cls-13" cx="7" cy="7" r="7"/>
+            <circle class="cls-14" cx="7" cy="7" r="7.5"/>
+          </g>
+          <circle id="Ellipse_1_copy-4" data-name="Ellipse 1 copy" class="cls-3" cx="5" cy="5" r="5" transform="translate(544 214)"/>
+        </g>
+        <g id="dot_copy_3" data-name="dot copy 3">
+          <g id="Ellipse_1-5" data-name="Ellipse 1" class="cls-7" transform="translate(653 253)">
+            <circle class="cls-13" cx="7" cy="7" r="7"/>
+            <circle class="cls-14" cx="7" cy="7" r="7.5"/>
+          </g>
+          <circle id="Ellipse_1_copy-5" data-name="Ellipse 1 copy" class="cls-3" cx="5" cy="5" r="5" transform="translate(655 255)"/>
+        </g>
+        <g id="dot_copy_4" data-name="dot copy 4">
+          <g id="Ellipse_1-6" data-name="Ellipse 1" class="cls-8" transform="translate(790 300)">
+            <circle class="cls-13" cx="7" cy="7" r="7"/>
+            <circle class="cls-14" cx="7" cy="7" r="7.5"/>
+          </g>
+          <circle id="Ellipse_1_copy-6" data-name="Ellipse 1 copy" class="cls-3" cx="5" cy="5" r="5" transform="translate(792 302)"/>
+        </g>
+        <g id="dot_copy_5" data-name="dot copy 5">
+          <g id="Ellipse_1-7" data-name="Ellipse 1" class="cls-9" transform="translate(893 255)">
+            <circle class="cls-13" cx="7" cy="7" r="7"/>
+            <circle class="cls-14" cx="7" cy="7" r="7.5"/>
+          </g>
+          <circle id="Ellipse_1_copy-7" data-name="Ellipse 1 copy" class="cls-3" cx="5" cy="5" r="5" transform="translate(895 257)"/>
+        </g>
+        <g id="dot_copy_6" data-name="dot copy 6">
+          <g id="Ellipse_1-8" data-name="Ellipse 1" class="cls-10" transform="translate(1089 279)">
+            <circle class="cls-13" cx="7" cy="7" r="7"/>
+            <circle class="cls-14" cx="7" cy="7" r="7.5"/>
+          </g>
+          <circle id="Ellipse_1_copy-8" data-name="Ellipse 1 copy" class="cls-3" cx="5" cy="5" r="5" transform="translate(1091 281)"/>
+        </g>
+        <g id="_" data-name="\">
+          <g id="Ellipse_1-9" data-name="Ellipse 1" class="cls-11" transform="translate(1238 213)">
+            <circle class="cls-13" cx="7" cy="7" r="7"/>
+            <circle class="cls-14" cx="7" cy="7" r="7.5"/>
+          </g>
+          <circle id="Ellipse_1_copy-9" data-name="Ellipse 1 copy" class="cls-3" cx="5" cy="5" r="5" transform="translate(1240 215)"/>
+        </g>
+        <g id="_copy" data-name="\ copy">
+          <g id="Ellipse_1-10" data-name="Ellipse 1" class="cls-9" transform="translate(1306 248)">
+            <circle class="cls-13" cx="7" cy="7" r="7"/>
+            <circle class="cls-14" cx="7" cy="7" r="7.5"/>
+          </g>
+          <circle id="Ellipse_1_copy-10" data-name="Ellipse 1 copy" class="cls-3" cx="5" cy="5" r="5" transform="translate(1308 250)"/>
+        </g>
+      </g>
+      <path id="Color_Overlay" data-name="Color Overlay" class="cls-12" d="M83,337a7,7,0,1,1,7,7A7,7,0,0,1,83,337Zm707-30a7,7,0,1,1,7,7A7,7,0,0,1,790,307ZM379,288a7,7,0,1,1,7,7A7,7,0,0,1,379,288Zm710-2a7,7,0,1,1,7,7A7,7,0,0,1,1089,286ZM893,262a7,7,0,1,1,7,7A7,7,0,0,1,893,262Zm-240-2a7,7,0,1,1,7,7A7,7,0,0,1,653,260Zm653-5a7,7,0,1,1,7,7A7,7,0,0,1,1306,255ZM214,237a7,7,0,1,1,7,7A7,7,0,0,1,214,237Zm1024-17a7,7,0,1,1,7,7A7,7,0,0,1,1238,220Zm-696-1a7,7,0,1,1,7,7A7,7,0,0,1,542,219Z"/>
+    </g>
+  </g>
+</svg>
