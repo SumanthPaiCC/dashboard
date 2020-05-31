@@ -3,9 +3,9 @@ import React, { Component } from "react";
 import { ListGroup,Image } from "react-bootstrap";
 import { anIcon } from "./assets/anicon.png";
 import { apIcon } from "./assets/apicon.png";
-import { green } from "./assets/greenandroid.svg";
-import { blue } from "./assets/bluewindows.svg";
-import { purple } from "./assets/purpleapple.svg";
+import  green  from "./assets/greenandroid.svg";
+import blue  from "./assets/bluewindows.svg";
+import purple from "./assets/purpleapple.svg";
 import "./Listitem.scss";
 class SortedList extends Component {
   constructor(props){
@@ -26,7 +26,7 @@ class SortedList extends Component {
                 <div className="listCont">
                 <div className='rimage'>
                   {/* <img src={item.rImage} alt='rimage'/> */}
-                  <Image src={green} alt='rimage'rounded />
+                  <img src={item.rimage} alt='rimage' />
                   
                 </div>
                   <div>

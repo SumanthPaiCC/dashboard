@@ -46,6 +46,7 @@ class Header extends Component {
     let winc = localStorage.getItem('wincounter')
     return (
       <>
+      <div className='fullcolor'>
       <div style={{display:'flex', justifyContent:'space-around'}} className='backColor'>
         <div className="icon">{/* <Button type="primary"  style={{ marginBottom: 16 }}>
           
@@ -95,6 +96,7 @@ class Header extends Component {
             </TabPane>
           </Tabs>
           <Lister/>
+        </div>
         </div>
       </>
     );

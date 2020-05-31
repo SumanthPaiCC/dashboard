@@ -16,3 +16,13 @@
     left: 1150px;
     top: 398px;
 }
+.whitelist{
+    .ant-tabs-nav .ant-tabs-tab-active {
+        color: green($color: #000000) !important ;
+        font-weight: 500;
+        outline: none;
+      }
+      .ant-tabs {
+      color:#497a8b;
+      }
+}

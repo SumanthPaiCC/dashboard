@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import { Tabs, Button } from "antd";
 import "./Lister.scss";
-import { anIcon } from "./assets/anicon.png";
-import { apIcon } from "./assets/apicon.png";
-import { green } from "./assets/greenandroid.svg";
-import { blue } from "./assets/bluewindows.svg";
-import { purple } from "./assets/purpleapple.svg";
+import anIcon from "./assets/anicon.png";
+import apIcon  from "./assets/apicon.png";
+import  green  from "../assettwo/greenandroid.svg";
+import blue  from "./assets/bluewindows.svg";
+import purple from "./assets/purpleapple.svg";
 import Listitem from "./Listitem";
 import AppleList from './AppleList'
 import WindowsList from "./WindowsList";
@@ -32,8 +32,8 @@ class Lister extends Component {
         title: "Nexus 9",
         serial: "Serial : 4612345670",
         price: 300,
-        bImage: { anIcon },
-        rImage:{green},
+        bImage: anIcon ,
+        rImage:green,
         date:'Friday, June 10 2015',
         time:'4:30 pm',
         type:'andriod',
@@ -43,8 +43,8 @@ class Lister extends Component {
         title: "Nexus 7",
         serial: "Serial : 4612345670",
         price: 320,
-        bImage: { anIcon },
-        rImage:{green},
+        bImage: anIcon ,
+        rImage:green,
         date:'Saturday, June 11 2015',
         time:'4:30 pm',
         type:'andriod',
@@ -54,8 +54,8 @@ class Lister extends Component {
         title: "Nexus 8",
         serial: "Serial : 4612345670",
         price: 330,
-        bImage: { anIcon },
-        rImage:{green},
+        bImage: anIcon ,
+        rImage:green,
         date:'Saturday, June 11 2015',
         time:'4:30 pm',
         type:'andriod',
@@ -65,8 +65,8 @@ class Lister extends Component {
         title: "Nexus 10",
         serial: "Serial : 4612345670",
         price: 310,
-        bImage: { anIcon },
-        rImage:{green},
+        bImage: anIcon ,
+        rImage:green,
         date:'Saturday, June 11 2015',
         time:'4:30 pm',
         type:'andriod',
@@ -76,8 +76,8 @@ class Lister extends Component {
         title: "iPad 3",
         serial: "Serial : 4612345670",
         price: 320,
-        bImage: { apIcon },
-        rImage:{purple},
+        bImage: apIcon,
+        rImage:purple,
         date:'Sunday, June 12 2015',
         time:'4:30 pm',
         type:'apple',
@@ -87,8 +87,8 @@ class Lister extends Component {
         title: "iPad 4",
         serial: "Serial : 4612345670",
         price: 330,
-        bImage: { apIcon },
-        rImage:{purple},
+        bImage: apIcon,
+        rImage:purple,
         date:'Monday, June 13 2015',
         time:'4:30 pm',
         type:'apple',
@@ -98,8 +98,8 @@ class Lister extends Component {
         title: "iPad 5",
         serial: "Serial : 4612345670",
         price: 380,
-        bImage: { apIcon },
-        rImage:{purple},
+        bImage: apIcon,
+        rImage:purple,
         date:'Monday, June 13 2015',
         time:'4:30 pm',
         type:'apple',
@@ -109,8 +109,8 @@ class Lister extends Component {
         title: "Surface 3",
         serial: "Serial : 4612345670",
         price: 340,
-        bImage: { apIcon },
-        rImage:{blue},
+        bImage: apIcon,
+        rImage:blue,
         date:'Tuesday, June 14 2015',
         time:'4:30 pm',
         type:'windows',
@@ -119,8 +119,8 @@ class Lister extends Component {
         title: "Nexus 12",
         serial: "Serial : 4612345670",
         price: 220,
-        bImage: { anIcon },
-        rImage:{green},
+        bImage: anIcon,
+        rImage:green,
         date:'Saturday, June 11 2015',
         time:'4:30 pm',
         type:'andriod',
@@ -129,7 +129,8 @@ class Lister extends Component {
     ];
     
     return (
-      <div>
+      <>
+      <div className='whitelist'>
       {console.log(data[1])}
         <div className="headertablister">
           <Tabs defaultActiveKey="1" onChange={this.onCallback}>
@@ -168,6 +169,7 @@ class Lister extends Component {
           <div className="summersales">SUMMER 2015 SALES</div>
         </div>
       </div>
+      </>
     );
   }
 }

@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 //import { List,Avatar } from "antd";
 import { ListGroup,Image } from "react-bootstrap";
-import { anIcon } from "./assets/anicon.png";
-import { apIcon } from "./assets/apicon.png";
-import { green } from "./assets/greenandroid.svg";
-import { blue } from "./assets/bluewindows.svg";
-import { purple } from "./assets/purpleapple.svg";
+import anIcon  from "./assets/anicon.png";
+import apIcon from "./assets/apicon.png";
+import  green  from "../assettwo/greenandroid.svg";
+import  blue  from "./assets/bluewindows.svg";
+import purple  from "./assets/purpleapple.svg";
 import "./Listitem.scss";
 class Listitem extends Component {
   constructor(props){
@@ -24,7 +24,7 @@ class Listitem extends Component {
                 <div className="listCont">
                 <div className='rimage'>
                   {/* <img src={item.rImage} alt='rimage'/> */}
-                  <Image src={green} alt='rimage'rounded />
+                  <img src={green} alt='rimage' />
                   
                 </div>
                   <div>
