@@ -35,16 +35,40 @@ class Lister extends Component {
         rImage:{green},
         date:'Friday, June 10 2015',
         time:'4:30 pm',
+        type:'andriod',
         android:true
       },
       {
         title: "Nexus 7",
+        serial: "Serial : 4612345670",
+        price: 320,
+        bImage: { anIcon },
+        rImage:{green},
+        date:'Saturday, June 11 2015',
+        time:'4:30 pm',
+        type:'andriod',
+        android:true
+      },
+      {
+        title: "Nexus 8",
+        serial: "Serial : 4612345670",
+        price: 330,
+        bImage: { anIcon },
+        rImage:{green},
+        date:'Saturday, June 11 2015',
+        time:'4:30 pm',
+        type:'andriod',
+        android:true
+      },
+      {
+        title: "Nexus 10",
         serial: "Serial : 4612345670",
         price: 310,
         bImage: { anIcon },
         rImage:{green},
         date:'Saturday, June 11 2015',
         time:'4:30 pm',
+        type:'andriod',
         android:true
       },
       {
@@ -55,6 +79,7 @@ class Lister extends Component {
         rImage:{purple},
         date:'Sunday, June 12 2015',
         time:'4:30 pm',
+        type:'apple',
         apple:true
       },
       {
@@ -65,6 +90,18 @@ class Lister extends Component {
         rImage:{purple},
         date:'Monday, June 13 2015',
         time:'4:30 pm',
+        type:'apple',
+        apple:true
+      },
+      {
+        title: "iPad 5",
+        serial: "Serial : 4612345670",
+        price: 380,
+        bImage: { apIcon },
+        rImage:{purple},
+        date:'Monday, June 13 2015',
+        time:'4:30 pm',
+        type:'apple',
         apple:true
       },
       {
@@ -75,6 +112,7 @@ class Lister extends Component {
         rImage:{blue},
         date:'Tuesday, June 14 2015',
         time:'4:30 pm',
+        type:'windows',
         windows:true
       },
     ];
