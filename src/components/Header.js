@@ -51,6 +51,22 @@ class Header extends Component {
         <div className="summer">SUMMER 2015</div>
         <div className="tabsales">Tablet Sales</div>
         </div>
+        <div className='appText'>
+          <div>appIcon</div>
+          <div>appText</div>
+        </div>
+        <div className='winText'>
+          <div>anIcon</div>
+          <div>anText</div>
+        </div>
+        <div className='penText'>
+          <div>winIcon</div>
+          <div>winIcon</div>
+        </div>
+        <div className='penText'>
+          <div>ref</div>
+          <div>pen</div>
+        </div>
         </div>
         
 
