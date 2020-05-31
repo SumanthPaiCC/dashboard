@@ -132,7 +132,7 @@ class Lister extends Component {
     return (
       <>
       <div className='whitelist'>
-      {console.log(data[1])}
+     
         <div className="headertablister">
           <Tabs defaultActiveKey="1" onChange={this.onCallback}>
             <TabPane tab="SORT BY" key="1">

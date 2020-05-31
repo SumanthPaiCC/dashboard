@@ -8,6 +8,7 @@ import imgand from './assets/headand.png'
 import imgwin from './assets/headwin.png'
 import refresh from './assets/headref.png'
 import pen from './assets/headpen.png'
+import Grapher from "./Grapher";
 //imgapple imgand imgwin
 class Header extends Component {
   constructor(props) {
@@ -86,7 +87,7 @@ class Header extends Component {
           <Tabs defaultActiveKey="1" onChange={this.onCallback}>
             <TabPane tab="SALES" key="1">
             <div>
-            <p>sales graph</p>
+            <Grapher paddingRight={20}/>
             </div>
               
             </TabPane>
