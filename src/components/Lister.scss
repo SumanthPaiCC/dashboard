@@ -5,7 +5,7 @@
     top: 965px;
     margin: 200px;
     padding: 20px;
-    margin-top: 250px;
+    margin-top: -10px;
     margin-left: -20px;
 
 }
@@ -20,7 +20,7 @@
 }
 .whitelist{
     .ant-tabs-nav .ant-tabs-tab-active {
-        color: white !important ;
+        color: black !important ;
         font-weight: 500;
         outline: none;
       }
