@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 import { Tabs, Button } from "antd";
 import "./Lister.scss";
-import anIcon from "./assets/anicon.png";
-import apIcon  from "./assets/apicon.png";
+import anIcon from "./assets/android copy 3.svg";
+import apIcon  from "./assets/apple copy.svg";
+import winIcon from './assets/windows copy 2.svg'
 import  green  from "../assettwo/greenandroid.svg";
 import blue  from "./assets/bluewindows.svg";
 import purple from "./assets/purpleapple.svg";
@@ -109,7 +110,7 @@ class Lister extends Component {
         title: "Surface 3",
         serial: "Serial : 4612345670",
         price: 340,
-        bImage: apIcon,
+        bImage: winIcon,
         rImage:blue,
         date:'Tuesday, June 14 2015',
         time:'4:30 pm',

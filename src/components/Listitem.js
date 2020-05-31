@@ -1,11 +1,12 @@
 import React, { Component } from "react";
 //import { List,Avatar } from "antd";
 import { ListGroup,Image } from "react-bootstrap";
-import anIcon  from "./assets/anicon.png";
-import apIcon from "./assets/apicon.png";
+import anIcon from "./assets/android copy 3.svg";
+import apIcon  from "./assets/apple copy.svg";
+import winIcon from './assets/windows copy 2.svg'
 import  green  from "../assettwo/greenandroid.svg";
-import  blue  from "./assets/bluewindows.svg";
-import purple  from "./assets/purpleapple.svg";
+import blue  from "./assets/bluewindows.svg";
+import purple from "./assets/purpleapple.svg";
 import "./Listitem.scss";
 class Listitem extends Component {
   constructor(props){
