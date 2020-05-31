@@ -8,67 +8,25 @@ import {blue} from './assets/blue.png'
 import {purple} from './assets/purple.png'
 import "./Listitem.scss";
 class Listitem extends Component {
+  constructor(props){
+    super(props)
+  }
   render() {
-    const data = [
-      {
-        title: "Nexus 9",
-        serial: "Serial : 4612345670",
-        price: "$300",
-        bImage: { anIcon },
-        rImage:{green},
-        date:'Friday, June 10 2015',
-        time:'4:30 pm'
-      },
-      {
-        title: "Nexus 7",
-        serial: "Serial : 4612345670",
-        price: "$310",
-        bImage: { anIcon },
-        rImage:{green},
-        date:'Saturday, June 11 2015',
-        time:'4:30 pm'
-      },
-      {
-        title: "iPad 3",
-        serial: "Serial : 4612345670",
-        price: "$320",
-        bImage: { apIcon },
-        rImage:{purple},
-        date:'Sunday, June 12 2015',
-        time:'4:30 pm'
-      },
-      {
-        title: "iPad 4",
-        serial: "Serial : 4612345670",
-        price: "$330",
-        bImage: { apIcon },
-        rImage:{purple},
-        date:'Monday, June 13 2015',
-        time:'4:30 pm'
-      },
-      {
-        title: "Surface 3",
-        serial: "Serial : 4612345670",
-        price: "$340",
-        bImage: { apIcon },
-        rImage:{blue},
-        date:'Tuesday, June 14 2015',
-        time:'4:30 pm'
-      },
-    ];
+    console.log(this.props.data)
+    
     return (
       <div>
         
 
         <ListGroup>
-          {data.map((item, index) => {
+          {this.props.data.map((item, index) => {
             return (
               <ListGroup.Item key={index} className="listGrp">
                 <div className="listCont">
                 <div className='rimage'>
                   {/* <img src={item.rImage} alt='rimage'/> */}
                   <Image src={green} alt='rimage'rounded />
-                  {console.log(item.rImage)}
+                  
                 </div>
                   <div>
                     <img src={item.bImage} alt="bImage" />
