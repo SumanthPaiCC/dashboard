@@ -1,7 +1,14 @@
 import React, { Component } from "react";
 import { Tabs,Button} from "antd";
 import "./Header.scss";
+import burger from './assets/Info Menu.svg'
 import Lister from "./Lister";
+import imgapple from './assets/headapple.png'
+import imgand from './assets/headand.png'
+import imgwin from './assets/headwin.png'
+import refresh from './assets/headref.png'
+import pen from './assets/headpen.png'
+//imgapple imgand imgwin
 class Header extends Component {
   constructor(props) {
     super(props);
@@ -48,31 +55,29 @@ class Header extends Component {
       <>
       <div className='fullcolor'>
       <div style={{display:'flex', justifyContent:'space-around'}} className='backColor'>
-        <div className="icon">{/* <Button type="primary"  style={{ marginBottom: 16 }}>
-          
-        </Button> */}icon</div>
+        <div className="icon"><img src={burger} menu/></div>
         <div>
         <div className="summer">SUMMER 2015</div>
         <div className="tabsales">Tablet Sales</div>
         </div>
         <div className='appText'>
-          <div>appIcon</div>
-          <div>appText</div>
-          <div>{applec}</div>
+          <div><img src={imgapple} alt={'imgapple'}/></div>
+          <div style={{color:'#477787',alignText:'center'}}>IPAD</div>
+          <div style={{color:'white',fontSize:'35px',padding:'10px'}}>{applec}</div>
         </div>
         <div className='winText'>
-          <div>anIcon</div>
-          <div>anText</div>
-          <div>{andc}</div>
+          <div><img src={imgand} alt={'imgand'}/></div>
+          <div style={{color:'#477787'}}>ANDROID</div>
+          <div style={{color:'white',fontSize:'35px',padding:'10px'}}>{andc}</div>
         </div>
         <div className='penText'>
-          <div>winIcon</div>
-          <div>winIcon</div>
-          <div>{winc}</div>
+          <div><img src={imgwin} alt={'imgwin'}/></div>
+          <div style={{color:'#477787'}}>WINDOWS</div>
+          <div style={{color:'white',fontSize:'35px',padding:'10px'}}>{winc}</div>
         </div>
         <div className='penText'>
-          <div>ref</div>
-          <div>pen</div>
+          <div style={{marginTop:'30px'}}><img src={refresh} alt={'refresh'}/></div>
+          <div style={{marginTop:'30px'}}><img src={pen} alt={'edit'}/></div>
         </div>
         </div>
         
