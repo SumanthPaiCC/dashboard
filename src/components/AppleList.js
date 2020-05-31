@@ -5,15 +5,18 @@ import { anIcon } from "./assets/anicon.png";
 import { apIcon } from "./assets/apicon.png";
 import { green } from "./assets/greenandroid.svg";
 import { blue } from "./assets/bluewindows.svg";
-import { purple } from "./assets/purpleapple.svg.png";
+import { purple } from "./assets/purpleapple.svg";
 import "./Listitem.scss";
 class AppleList extends Component {
   constructor(props){
     super(props)
+  
   }
   render() {
-
-    
+   let applecounter=0
+   
+   
+   
     return (
       <div>
         
@@ -21,8 +24,11 @@ class AppleList extends Component {
         <ListGroup>
           {this.props.data.map((item, index) => {
               if(item.apple){
-
+               {applecounter++}
+               
                 return (
+                    
+                    
               <ListGroup.Item key={index} className="listGrp">
                 <div className="listCont">
                 <div className='rimage'>
@@ -50,7 +56,8 @@ class AppleList extends Component {
             
           })}
         </ListGroup>
-        
+        {localStorage.setItem('applecounter',applecounter)}
+        {console.log(applecounter)}
       </div>
     );
   }

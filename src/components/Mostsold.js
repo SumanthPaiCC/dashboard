@@ -5,7 +5,7 @@ import { anIcon } from "./assets/anicon.png";
 import { apIcon } from "./assets/apicon.png";
 import { green } from "./assets/greenandroid.svg";
 import { blue } from "./assets/bluewindows.svg";
-import { purple } from "./assets/purpleapple.svg.png";
+import { purple } from "./assets/purpleapple.svg";
 import "./Listitem.scss";
 class MostSold extends Component {
   constructor(props) {

@@ -5,7 +5,7 @@ import { anIcon } from "./assets/anicon.png";
 import { apIcon } from "./assets/apicon.png";
 import { green } from "./assets/greenandroid.svg";
 import { blue } from "./assets/bluewindows.svg";
-import { purple } from "./assets/purpleapple.svg.png";
+import { purple } from "./assets/purpleapple.svg";
 import "./Listitem.scss";
 class WindowsList extends Component {
   constructor(props){
@@ -13,7 +13,7 @@ class WindowsList extends Component {
   }
   render() {
    
-    
+    let wincounter=0
     return (
       <div>
         
@@ -21,7 +21,7 @@ class WindowsList extends Component {
         <ListGroup>
           {this.props.data.map((item, index) => {
               if(item.windows){
-
+                    {wincounter++}
                 return (
               <ListGroup.Item key={index} className="listGrp">
                 <div className="listCont">
@@ -51,7 +51,8 @@ class WindowsList extends Component {
             
           })}
         </ListGroup>
-        
+        {localStorage.setItem('wincounter',wincounter)}
+        {console.log(wincounter)}
       </div>
     );
   }

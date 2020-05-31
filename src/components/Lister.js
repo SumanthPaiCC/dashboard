@@ -5,7 +5,7 @@ import { anIcon } from "./assets/anicon.png";
 import { apIcon } from "./assets/apicon.png";
 import { green } from "./assets/greenandroid.svg";
 import { blue } from "./assets/bluewindows.svg";
-import { purple } from "./assets/purpleapple.svg.png";
+import { purple } from "./assets/purpleapple.svg";
 import Listitem from "./Listitem";
 import AppleList from './AppleList'
 import WindowsList from "./WindowsList";
@@ -21,7 +21,7 @@ class Lister extends Component {
     this.onCallback = this.onCallback.bind(this);
   }
   onCallback = (key) => {
-    console.log(key);
+    //console.log(key);
   };
 
   render() {

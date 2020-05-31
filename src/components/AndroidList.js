@@ -5,14 +5,14 @@ import { anIcon } from "./assets/anicon.png";
 import { apIcon } from "./assets/apicon.png";
 import { green } from "./assets/greenandroid.svg";
 import { blue } from "./assets/bluewindows.svg";
-import { purple } from "./assets/purpleapple.svg.png";
+import { purple } from "./assets/purpleapple.svg";
 import "./Listitem.scss";
 class AndroidList extends Component {
   constructor(props){
     super(props)
   }
   render() {
-    
+    let androidcounter=0
     return (
       <div>
         
@@ -20,6 +20,7 @@ class AndroidList extends Component {
         <ListGroup>
           {this.props.data.map((item, index) => {
               if(item.android){
+                  {androidcounter++}
                 return (
               <ListGroup.Item key={index} className="listGrp">
                 <div className="listCont">
@@ -49,7 +50,8 @@ class AndroidList extends Component {
             
           })}
         </ListGroup>
-        
+        {localStorage.setItem('androidcounter',androidcounter)}
+        {console.log(androidcounter)}
       </div>
     );
   }

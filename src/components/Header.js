@@ -41,6 +41,9 @@ class Header extends Component {
 
   render() {
     const { TabPane } = Tabs;
+    let applec = localStorage.getItem('applecounter')
+    let andc = localStorage.getItem('androidcounter')
+    let winc = localStorage.getItem('wincounter')
     return (
       <>
       <div style={{display:'flex', justifyContent:'space-around'}} className='backColor'>
@@ -54,14 +57,17 @@ class Header extends Component {
         <div className='appText'>
           <div>appIcon</div>
           <div>appText</div>
+          <div>{applec}</div>
         </div>
         <div className='winText'>
           <div>anIcon</div>
           <div>anText</div>
+          <div>{andc}</div>
         </div>
         <div className='penText'>
           <div>winIcon</div>
           <div>winIcon</div>
+          <div>{winc}</div>
         </div>
         <div className='penText'>
           <div>ref</div>
