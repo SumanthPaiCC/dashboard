@@ -167,7 +167,7 @@ class Lister extends Component {
               <WindowsList data={data}/>
             </TabPane>
           </Tabs>
-          <div className="summersales">SUMMER 2015 SALES</div>
+          <div className="summersales">Summer 2015 Sales</div>
         </div>
       </div>
       </>

@@ -62,7 +62,7 @@ class Header extends Component {
         </div>
         <div className='appText'>
           <div><img src={imgapple} alt={'imgapple'}/></div>
-          <div style={{color:'#477787',alignText:'center'}}>IPAD</div>
+          <div style={{color:'#477787'}}>IPAD</div>
           <div style={{color:'white',fontSize:'35px',padding:'10px'}}>{applec}</div>
         </div>
         <div className='winText'>
