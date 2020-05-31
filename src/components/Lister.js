@@ -11,6 +11,7 @@ import AppleList from './AppleList'
 import WindowsList from "./WindowsList";
 import AndroidList from "./AndroidList";
 import MostSold from "./Mostsold";
+import SortedList from "./Sortedlist";
 class Lister extends Component {
   constructor(props) {
     super(props);
@@ -114,6 +115,16 @@ class Lister extends Component {
         time:'4:30 pm',
         type:'windows',
         windows:true
+      },{
+        title: "Nexus 12",
+        serial: "Serial : 4612345670",
+        price: 220,
+        bImage: { anIcon },
+        rImage:{green},
+        date:'Saturday, June 11 2015',
+        time:'4:30 pm',
+        type:'andriod',
+        android:true
       },
     ];
     
@@ -125,7 +136,7 @@ class Lister extends Component {
             <TabPane tab="SORT BY" key="1">
               <div>
                 
-                <Listitem data={data}/>
+                <SortedList data={data}/>
               </div>
               {/* sort by all popular most sold ipad android windows */}
             </TabPane>
