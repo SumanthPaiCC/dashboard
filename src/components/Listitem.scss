@@ -1,0 +1,31 @@
+.listCont {
+  display: flex;
+  justify-content: space-evenly;
+}
+.rimage{
+    margin-left: -150px;
+}
+.price {
+  margin-left: 100px;
+  font-size: 20px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.listGrp {
+  border: thick;
+  box-sizing: border-box;
+  background-color: red($color: #000000);
+  width: 1401px;
+  height: 94px;
+}
+.date{
+font-size: 15px;
+color: #c2c2c2;
+}
+.time{font-size: 15px;
+    color: #c2c2c2;
+}

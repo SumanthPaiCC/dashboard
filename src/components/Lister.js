@@ -47,6 +47,9 @@ class Lister extends Component {
             <TabPane tab="WINDOWS" key="7">
               <p>products content</p>
             </TabPane>
+            <TabPane style={{marginLeft:'500px'}} tab="SUMMER 2015 SALES" key="8">
+              <p>sales numbers</p>
+            </TabPane>
           </Tabs>
         </div>
       </div>
