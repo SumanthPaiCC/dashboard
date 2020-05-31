@@ -7,19 +7,20 @@ import {green} from './assets/green.png'
 import {blue} from './assets/blue.png'
 import {purple} from './assets/purple.png'
 import "./Listitem.scss";
-class Listitem extends Component {
+class AndroidList extends Component {
   constructor(props){
     super(props)
   }
   render() {
-   
+    
     return (
       <div>
         
 
         <ListGroup>
           {this.props.data.map((item, index) => {
-            return (
+              if(item.android){
+                return (
               <ListGroup.Item key={index} className="listGrp">
                 <div className="listCont">
                 <div className='rimage'>
@@ -43,6 +44,9 @@ class Listitem extends Component {
                 </div>
               </ListGroup.Item>
             );
+
+              }
+            
           })}
         </ListGroup>
         
@@ -51,4 +55,4 @@ class Listitem extends Component {
   }
 }
 
-export default Listitem;
+export default AndroidList ;
