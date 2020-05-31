@@ -27,7 +27,7 @@ class AndroidList extends Component {
                 <div className="listCont">
                 <div className='rimage'>
                   {/* <img src={item.rImage} alt='rimage'/> */}
-                  <Image src={green} alt='rimage'rounded />
+                  <Image src={item.rImage} alt='rimage'rounded />
                   
                 </div>
                   <div>

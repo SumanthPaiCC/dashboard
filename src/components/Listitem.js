@@ -25,7 +25,7 @@ class Listitem extends Component {
                 <div className="listCont">
                 <div className='rimage'>
                   {/* <img src={item.rImage} alt='rimage'/> */}
-                  <img src={green} alt='rimage' />
+                  <img src={item.rImage} alt='rimage' />
                   
                 </div>
                   <div>
