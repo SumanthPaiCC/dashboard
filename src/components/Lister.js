@@ -3,9 +3,9 @@ import { Tabs, Button } from "antd";
 import "./Lister.scss";
 import { anIcon } from "./assets/anicon.png";
 import { apIcon } from "./assets/apicon.png";
-import {green} from './assets/green.png'
-import {blue} from './assets/blue.png'
-import {purple} from './assets/purple.png'
+import { green } from "./assets/greenandroid.svg";
+import { blue } from "./assets/bluewindows.svg";
+import { purple } from "./assets/purpleapple.svg.png";
 import Listitem from "./Listitem";
 import AppleList from './AppleList'
 import WindowsList from "./WindowsList";

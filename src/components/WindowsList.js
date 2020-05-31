@@ -3,9 +3,9 @@ import React, { Component } from "react";
 import { ListGroup,Image } from "react-bootstrap";
 import { anIcon } from "./assets/anicon.png";
 import { apIcon } from "./assets/apicon.png";
-import {green} from './assets/green.png'
-import {blue} from './assets/blue.png'
-import {purple} from './assets/purple.png'
+import { green } from "./assets/greenandroid.svg";
+import { blue } from "./assets/bluewindows.svg";
+import { purple } from "./assets/purpleapple.svg.png";
 import "./Listitem.scss";
 class WindowsList extends Component {
   constructor(props){
